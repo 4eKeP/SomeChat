@@ -40,6 +40,6 @@ struct MessageBubble: View {
 
 struct MessageBubble_Previews: PreviewProvider {
     static var previews: some View {
-        MessageBubble(message: Message(id: "134124", text: "Synthwave boy hits hard!", received: false, timestamp: Date()))
+        MessageBubble(message: Message(id: "134124", received: false,text: "Synthwave boy hits hard!", timestamp: Date()))
     }
 }
